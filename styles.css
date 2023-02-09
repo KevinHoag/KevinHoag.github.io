@@ -1,43 +1,126 @@
 * {
 	box-sizing: border-box;
-}
-body {
-	background-color: rgb(100, 150, 100, 0.8);
 	font-family: Arial, Helvetica, sans-serif;
 }
-p, ul {
-	font-size: 20px;
+
+body {
+	margin-left: 20vw;
+	background-color: rgba(69, 89, 81, 0.674);;
 }
-.row {
-	width: 80%;
-	position: fixed;
-	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
-}
-.column {
-	float: left;
-	height: 770px;
-}
+
 .column1 {
-	width: 40%;
-	background-color: rgb(0, 255, 255, 0.5);
-	text-align: right;
-	padding-right: 1%;
-	border-right: 1.5px solid black;
+	margin-top: 5vh;
+	float: left;
+	width: 20vw;
+	height: 90vh;
+	background-color: rgba(66, 51, 51, 0.5);
 }
+
 .column2 {
-	width: 60%;
-	background-color: lightblue;
-	padding-left: 1%;
-	padding-top: 0px;
+	margin-top: 5vh;
+	float: left;
+	width: 40vw;
+	height: 90vh;
+	background-color: rgba(211, 198, 198, 0.5);
 }
-.avartar {	
-	background-image: url("CV.jpg");
-	height: 30%;
+
+/* Column1 */
+
+.intro {
 	width: 100%;
-	margin-left: 1%;
+	height: 30vh;
+}
+
+.intro p {
+	font-size: 3vw;
+	margin-left: 1vw;
+}
+
+.education {
+	width: 100%;
+	height: 30vh;
+}
+
+.education h1 {
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+
+.education ul {
+	font-size: 1.2vw;
+}
+
+.skills {
+	width: 100%;
+	height: 30vh;
+}
+
+.skills h1 {
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+
+.skills ul {
+	font-size: 1.2vw;
+}
+
+
+/* Column2 */
+
+.information {
+	width: 100%;
+	height: 30vh;
+}
+
+
+.avartar {
+	float: left;
+	width: 40%;
+	height: 30vh;
+	background-image: url("CV.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position-x: center;
-	background-size: contain;
-};
+}
+
+.info {
+	float: left;
+	width: 60%;
+	height: 30vh;
+}
+
+.info ul{
+	margin-left: 1vw;
+	margin-top: 5vw;
+	font-size: 1.4vw;
+	list-style-type: none;
+}
+
+.profile {
+	margin-top: 4vw;
+	width: 100%;
+	height: 30vh;
+}
+
+.profile h1 {
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+
+.profile p {
+	font-size: 1.2vw;
+	margin-left: 1vw;
+}
+
+.experience {
+	width: 100%;
+	height: 30vh;
+}
+
+.experience h1 {
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+
+.experience ul {
+	font-size: 1.2vw;
+}
