@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(100, 150, 100, 0.8);
+	font-family: Arial, Helvetica, sans-serif;
+}
+p, ul {
+	font-size: 20px;
+}
+.row {
+	width: 80%;
+	position: fixed;
+	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+.column {
+	float: left;
+	height: 770px;
+}
+.column1 {
+	width: 40%;
+	background-color: rgb(0, 255, 255, 0.5);
+	text-align: right;
+	padding-right: 1%;
+	border-right: 1.5px solid black;
+}
+.column2 {
+	width: 60%;
+	background-color: lightblue;
+	padding-left: 1%;
+	padding-top: 0px;
+}
+.avartar {	
+	background-image: url("CV.jpg");
+	height: 30%;
+	width: 100%;
+	margin-left: 1%;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: contain;
+};
