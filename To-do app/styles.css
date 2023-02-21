@@ -24,7 +24,6 @@ html, body {
 }
 
 .addtask {
-    float: left;
     display: inline-block;
     margin-left: 2%;
     height: 100%;
@@ -73,5 +72,11 @@ html, body {
 
 #tasks li {
     padding-left: -8%;
-    
+}
+
+.deleteNode {
+    float: right;
+    margin-right: 2%;
+    text-decoration: underline;
+    cursor: pointer;
 }
